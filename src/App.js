@@ -55,10 +55,10 @@ function App() {
         <div className="app">
           <Header />
           <Routes>
-            <Route path="/" element={<Taipei />} exact />
-            <Route path="/taichung" element={<Taichung />} />
-            <Route path="/tainan" element={<Tainan />} />
-            <Route path="/other" element={<Other />} />
+            <Route path="/yanyangirl/" element={<Taipei />} exact />
+            <Route path="/yanyangirl/taichung" element={<Taichung />} />
+            <Route path="/yanyangirl/tainan" element={<Tainan />} />
+            <Route path="/yanyangirl/other" element={<Other />} />
           </Routes>
           <Footer />
         </div>

@@ -7,19 +7,19 @@ import { Link } from "react-router-dom";
 const city = [
   {
     name: "臺北",
-    src: "/",
+    src: "/yanyangirl/",
   },
   {
     name: "臺中",
-    src: "/taichung",
+    src: "/yanyangirl/taichung",
   },
   {
     name: "臺南",
-    src: "/tainan",
+    src: "/yanyangirl/tainan",
   },
   {
     name: "其他",
-    src: "/other",
+    src: "/yanyangirl/other",
   },
 ];
 
