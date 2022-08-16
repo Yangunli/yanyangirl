@@ -40,7 +40,7 @@ const Header = () => {
       </Grid>
       <Grid item xs={6} sm={6} lg={6}>
         <Link
-          to="/"
+          to="/yanyangirl/"
           style={{
             textDecoration: "none",
           }}
