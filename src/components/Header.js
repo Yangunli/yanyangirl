@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
 import Sidebar from "./Sidebar";
-import "../icons/twicon.css";
 import { Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 
@@ -76,7 +75,6 @@ const Header = () => {
               </div>
             </Link>
           ))}
-          {/* <i class="twicon-taiwanese-bag" style={{ fontSize: "3rem" }} /> */}
         </div>
       </Grid>
       <Grid item xs={3} sm={3} lg={3}></Grid>
