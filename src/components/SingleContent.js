@@ -36,7 +36,7 @@ const SingleContent = ({ exp }) => {
           onClick={handleOpen}
         />
 
-        <CardContent>
+        <CardContent onClick={handleOpen}>
           <Typography variant="h6" color="text.secondary">
             {exp.name || exp.Caption}
           </Typography>

@@ -130,6 +130,10 @@
   cursor: pointer;
 }
 
+.Info:hover {
+  background-color: rgba(192, 170, 128, 0.8);
+}
+
 /* footer */
 
 .footer-navigation {
@@ -191,7 +195,7 @@
 }
 
 hr {
-  color: burlywood;
+  color: rgb(169, 139, 100);
 }
 
 /* 
