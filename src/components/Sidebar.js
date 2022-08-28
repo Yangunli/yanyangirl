@@ -28,8 +28,12 @@ const city = [
   },
 ];
 
+const iOS =
+  typeof navigator !== "undefined" &&
+  /iPad|iPhone|iPod/.test(navigator.userAgent);
+
 export default function Sidebar() {
-  const [state, setState] = useState(false);
+  const [state, setState] = useState({ left: false });
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (
@@ -62,6 +66,7 @@ export default function Sidebar() {
       <List className="sidebar">
         {city.map((c) => (
           <Link
+            key={c.name}
             to={c.src}
             style={{
               width: "100%",
@@ -104,6 +109,8 @@ export default function Sidebar() {
             />
           </Button>
           <SwipeableDrawer
+            disableBackdropTransition={!iOS}
+            disableDiscovery={iOS}
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}

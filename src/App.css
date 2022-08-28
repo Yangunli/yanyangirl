@@ -22,6 +22,7 @@
   height: 15vh;
   position: fixed;
   cursor: pointer;
+  z-index: 100;
 }
 
 .logo {

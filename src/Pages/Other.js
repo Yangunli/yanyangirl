@@ -27,10 +27,10 @@ const Other = () => {
         sx={{ marginTop: { xs: "6rem", sm: "8rem", md: "10rem", lg: "10rem" } }}
       >
         <Grid container spacing={5}>
-          {exhibition.map((exp, i) => (
+          {exhibition.map((exp) => (
             <SingleContent
-              key={exp.i}
-              id={exp.id}
+              key={exp.ID}
+              id={exp.ID}
               exp={exp}
               artiist={exp.artist}
             />

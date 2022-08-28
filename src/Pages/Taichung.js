@@ -25,10 +25,10 @@ const Taichung = () => {
         sx={{ marginTop: { xs: "6rem", sm: "8rem", md: "10rem", lg: "10rem" } }}
       >
         <Grid container spacing={5}>
-          {taichungExp.map((exp, i) => (
+          {taichungExp.map((exp) => (
             <SingleContent
-              key={exp.i}
-              id={exp.id}
+              key={exp.src}
+              id={exp.ID}
               exp={exp}
               artiist={exp.artist}
             />

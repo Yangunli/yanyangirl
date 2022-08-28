@@ -39,7 +39,7 @@ const Footer = () => {
           </dl>
           <hr />
         </div>
-        <div class="footer-navigation-city">
+        <div className="footer-navigation-city">
           <div className="cityList">
             {city.map((c) => (
               <Link

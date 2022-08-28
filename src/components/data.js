@@ -1,5 +1,31 @@
 export const taipeiExp = [
   {
+    ID: 829,
+    name: "木、石雕展",
+    artist: "杉崎正則",
+    venue: "san__galerie",
+    openDay: "2022/09/02、15以外",
+    TicketType: "免費",
+    location: "台北市大安區潮州街139號",
+    time: "2022/09/02-09/15",
+
+    src: "https://pic.pimg.tw/yangun410/1661685989-202493679-g_n.jpg",
+    link: "https://www.instagram.com/san__galerie/",
+  },
+  {
+    ID: 828,
+    name: "囡囡對語",
+    artist: "黃品彤",
+    venue: "白石畫廊",
+    openDay: "周二至周六",
+    TicketType: "免費",
+    location: "台北市內湖區基湖路1號",
+    time: "2022/09/03-10/15",
+
+    src: "https://pic.pimg.tw/yangun410/1661684392-1118608483-g_n.jpg",
+    link: "http://www.lihpao.org.tw/art_detail.php?no=64",
+  },
+  {
     ID: 12,
     name: "流感",
     artist: "林禹彤",
@@ -12,6 +38,20 @@ export const taipeiExp = [
     src: "https://pic.pimg.tw/yangun410/1660237960-338109573-g_l.jpg",
     link: "http://www.lihpao.org.tw/art_detail.php?no=64",
   },
+  {
+    ID: 801,
+    name: "南島怪獸",
+    artist: "小黑",
+    venue: "Mangasick",
+    openDay: "周五至周一",
+    TicketType: "免費",
+    location: "台北市羅斯福路三段244巷10弄2號B1",
+    time: "2022/09/02-09/26",
+
+    src: "https://pic.pimg.tw/yangun410/1661686208-2291539740-g_n.jpg",
+    link: "https://www.facebook.com/Mangasick/photos/a.292853924162103/5367711036676341/",
+  },
+
   {
     ID: 5,
     name: "回家路上",
@@ -96,7 +136,7 @@ export const taipeiExp = [
     openDay: "周三至周六",
     venue: "十方藝術空間",
     TicketType: "免費",
-    time: "2022/07/23-09/04",
+    time: "2022/08/03-09/04",
     location: "台北市中山區德惠街51號",
     desc: "",
     src: "https://pic.pimg.tw/yangun410/1660646149-205496889-g_n.jpg",
@@ -157,6 +197,47 @@ export const taipeiExp = [
 
 export const taichungExp = [
   {
+    ID: 154,
+    name: "Life Goes On!",
+    artist: " 吳怡蒨、邱建仁、許常郁、傅詩霖",
+    time: "2022/08/27–2022/10/29",
+    openDay: "周二至周日",
+    TicketType: "免費",
+    venue: "大雋藝術",
+    location: "台中市南屯區惠文路489號",
+    desc: "",
+    src: "https://pic.pimg.tw/yangun410/1661684996-977617960-g_n.png",
+    link: "https://artemperor.tw/tidbits/13326?fbclid=IwAR15myPd38_OM3coHeUywI_W9sTeHkuhKd52eZaay1FGiGSM_xbCNJYm0Mc",
+  },
+
+  {
+    ID: 654,
+    name: "日日，風和麗景 ",
+    artist: "米力、湯舒皮、薛慧瑩 ",
+    time: "2022/09/03-10/29",
+    openDay: "周二至周六",
+    TicketType: "免費",
+    venue: "臻品藝術",
+    location: "台中市西區忠誠街35號",
+    desc: "",
+    src: "https://pic.pimg.tw/yangun410/1661684252-2018002793-g_b.jpg",
+    link: "https://www.lpd.com.tw/art-content.php?ID=188",
+  },
+
+  {
+    ID: 26,
+    name: " 那些生活中微不足道的小事",
+    artist: "宋立、吳昕恬、陳穎",
+    time: "2022/08/27-10/03",
+    openDay: "周二至周六",
+    TicketType: "免費",
+    venue: "亞米藝術",
+    location: "台中市西區民生北路138號",
+    desc: "",
+    src: "https://pic.pimg.tw/yangun410/1661684252-1610335272-g_n.jpg",
+    link: "https://www.facebook.com/yamiartspace",
+  },
+  {
     ID: 26,
     name: "生生流轉",
     artist: "董旻晉、陳奕彰、莊騰翔、王裔婷、曾上杰、呂文、林安常、林芷安",
@@ -166,7 +247,7 @@ export const taichungExp = [
     venue: "月臨畫廊",
     location: "台中市西區英才路589巷6號",
     desc: "",
-    src: "https://cultureexpress.taipei/UploadPlugin?file=%2fw6lriPeTD4Ry1335WB01zlhAHNTbgrcfar9m5hV3OqguTyOmxRXmsyR%2bzF8aKLA003ev7xn9P1AiuGFjMcqZwCXHNWPRbjjAMxwcyrXAwM%3d",
+    src: "https://d2onjhd726mt7c.cloudfront.net/images/datas/000/095/358/r4zjm1rqsta4gbudmjx37gp4klnlp28m_1400x800.jpg",
     link: "https://www.moongallery.com.tw/gallery_detail.asp?st=2&cat=263",
   },
   {

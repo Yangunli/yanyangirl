@@ -26,7 +26,7 @@ const SingleContent = ({ exp }) => {
   const handleClose = () => setOpen(false);
 
   return (
-    <Grid item xs={12} sm={6} md={4} lg={3} key={exp.id} exp={exp}>
+    <Grid item xs={12} sm={6} md={4} lg={3}>
       <Card sx={{ maxWidth: 400 }}>
         <CardMedia
           component="img"

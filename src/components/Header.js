@@ -32,9 +32,10 @@ const Header = () => {
       onClick={() => window.scroll(0, 0)}
     >
       <Grid
+        item
         xs={3}
         sm={3}
-        sx={{ display: { xs: "block", md: "none" }, Height: "100%" }}
+        sx={{ display: { xs: "block", md: "none" }, height: "100%" }}
       >
         <Sidebar />
       </Grid>
@@ -49,6 +50,7 @@ const Header = () => {
         </Link>
       </Grid>
       <Grid
+        item
         sm={3}
         lg={3}
         sx={{ display: { xs: "none", md: "block" }, Height: "100%" }}
@@ -56,6 +58,7 @@ const Header = () => {
         <div className="right">
           {city.map((c) => (
             <Link
+              key={c.src}
               to={c.src}
               style={{
                 width: "100%",
