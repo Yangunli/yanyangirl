@@ -22,8 +22,8 @@ const Other = () => {
       <Grid
         item
         xs={9}
-        lg={9}
-        md={9}
+        lg={10}
+        md={10}
         sx={{ marginTop: { xs: "6rem", sm: "8rem", md: "10rem", lg: "10rem" } }}
       >
         <Grid container spacing={5}>

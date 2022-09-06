@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
+import { Divider } from "@mui/material";
 const Footer = () => {
   const city = [
     {
@@ -35,14 +36,15 @@ const Footer = () => {
             <dt>
               <span className="footer-logo">YANYANGIRL</span>
             </dt>
-            <dd>將日常所關注的創作者及展覽空間們的活動，匯集而成的展覽提案!</dd>
+            <dd>致力於成為想到看展，即能被聯想的存在的展覽推薦清單</dd>
           </dl>
-          <hr />
+          <Divider />
         </div>
         <div className="footer-navigation-city">
           <div className="cityList">
             {city.map((c) => (
               <Link
+                key={c.EnName}
                 to={c.src}
                 style={{
                   textDecoration: "none",
@@ -64,7 +66,7 @@ const Footer = () => {
               </Link>
             ))}
           </div>
-          <hr />
+          <Divider />
         </div>
 
         <div className="referance">

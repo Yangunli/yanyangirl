@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import { Typography } from "@mui/material";
+import { Divider, Typography } from "@mui/material";
 const ContentModal = ({ exp }) => {
   return (
     <div>
@@ -20,7 +20,7 @@ const ContentModal = ({ exp }) => {
         <Typography variant="subtitle1" color="text.secondary">
           活動資訊
         </Typography>
-        <hr />
+        <Divider />
         <div className="ContentModal__about">
           <div className="Info">
             <small>{exp.Venue || exp.venue} </small>
