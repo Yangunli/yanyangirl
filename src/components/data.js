@@ -1,16 +1,30 @@
 export const taipeiExp = [
   {
-    ID: 829,
-    name: "木、石雕展",
-    artist: "杉崎正則",
-    venue: "san__galerie",
-    openDay: "2022/09/02、15以外",
+    ID: 830,
+    name: "一步的風景",
+    artist: "徐至宏、倪嘉隆",
+    venue: "舊香居藝空間",
+    openDay: "周二至周日",
     TicketType: "免費",
-    location: "台北市大安區潮州街139號",
-    time: "2022/09/02-09/15",
+    location: "台北市師大路117巷6號1樓",
+    time: "2022/09/24-10/16",
 
-    src: "https://pic.pimg.tw/yangun410/1661685989-202493679-g_n.jpg",
-    link: "https://www.instagram.com/san__galerie/",
+    src: "https://pic.pimg.tw/yangun410/1663596092-474449301-g_n.jpg",
+    link: "https://www.facebook.com/photo/?fbid=157227876912235&set=pcb.157227380245618",
+  },
+
+  {
+    ID: 830,
+    name: "哭泣遊戲",
+    artist: "不討喜",
+    venue: "back_y伊日後樂園",
+    openDay: "周二至周六",
+    TicketType: "免費",
+    location: "台北市內湖區新明路66號",
+    time: "2022/09/22-10/15",
+
+    src: "https://pic.pimg.tw/yangun410/1663557572-1975744569-g_n.jpg",
+    link: "https://www.facebook.com/photo/?fbid=157227876912235&set=pcb.157227380245618",
   },
   {
     ID: 828,
@@ -24,6 +38,19 @@ export const taipeiExp = [
 
     src: "https://pic.pimg.tw/yangun410/1661684392-1118608483-g_n.jpg",
     link: "http://www.lihpao.org.tw/art_detail.php?no=64",
+  },
+  {
+    ID: 830,
+    name: "貓星 2022首部曲",
+    artist: "蔡文明",
+    venue: "靠邊走藝術空間",
+    openDay: "周二至周日",
+    TicketType: "免費",
+    location: "台北市忠孝東路2段68號",
+    time: "2022/09/10-10/09",
+
+    src: "https://pic.pimg.tw/yangun410/1663557571-3167249754-g_b.jpg",
+    link: "https://www.facebook.com/WrongGalleries/photos/a.488851071209327/5442741172486934/",
   },
   {
     ID: 12,
@@ -78,6 +105,19 @@ export const taipeiExp = [
     desc: "",
     src: "https://pic.pimg.tw/yangun410/1660237679-3882721313-g_l.jpg",
     link: "https://www.g-sculptor.com/exhibition",
+  },
+  {
+    ID: 829,
+    name: "木、石雕展",
+    artist: "杉崎正則",
+    venue: "san__galerie",
+    openDay: "2022/09/02、15以外",
+    TicketType: "免費",
+    location: "台北市大安區潮州街139號",
+    time: "2022/09/02-09/15",
+
+    src: "https://pic.pimg.tw/yangun410/1661685989-202493679-g_n.jpg",
+    link: "https://www.instagram.com/san__galerie/",
   },
   {
     ID: 12,
@@ -136,7 +176,7 @@ export const taipeiExp = [
     openDay: "周三至周六",
     venue: "十方藝術空間",
     TicketType: "免費",
-    time: "2022/08/03-09/04",
+    time: "2022/08/03-08/30",
     location: "台北市中山區德惠街51號",
     desc: "",
     src: "https://pic.pimg.tw/yangun410/1660646149-205496889-g_n.jpg",
