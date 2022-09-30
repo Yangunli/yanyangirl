@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/yanyangirl/static/css/main.6bdcbffb.css",
-    "main.js": "/yanyangirl/static/js/main.0633a2cf.js",
+    "main.css": "/yanyangirl/static/css/main.506503b8.css",
+    "main.js": "/yanyangirl/static/js/main.7570bcde.js",
     "static/js/787.651c5762.chunk.js": "/yanyangirl/static/js/787.651c5762.chunk.js",
     "service-worker.js": "/yanyangirl/service-worker.js",
     "index.html": "/yanyangirl/index.html",
-    "main.6bdcbffb.css.map": "/yanyangirl/static/css/main.6bdcbffb.css.map",
-    "main.0633a2cf.js.map": "/yanyangirl/static/js/main.0633a2cf.js.map",
+    "main.506503b8.css.map": "/yanyangirl/static/css/main.506503b8.css.map",
+    "main.7570bcde.js.map": "/yanyangirl/static/js/main.7570bcde.js.map",
     "787.651c5762.chunk.js.map": "/yanyangirl/static/js/787.651c5762.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bdcbffb.css",
-    "static/js/main.0633a2cf.js"
+    "static/css/main.506503b8.css",
+    "static/js/main.7570bcde.js"
   ]
 }
