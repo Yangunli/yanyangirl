@@ -305,7 +305,7 @@ export const taichungExp = [
     ID: 206,
     name: "由星星組成的我們",
     artist: "夏仙",
-    time: "2022/10/08-11/21",
+    time: "2022/10/08-11/13",
     openDay: "周三至周日",
     venue: "小路映画",
     location: "台中市西區五權五街94巷36號",
