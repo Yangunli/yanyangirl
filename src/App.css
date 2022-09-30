@@ -23,7 +23,7 @@ img:hover {
   background-color: rgb(255, 241, 215);
   justify-content: space-between;
   align-items: center;
-  height: 25vh;
+  height: 20vh;
   position: fixed;
   cursor: pointer;
   z-index: 100;
@@ -52,19 +52,19 @@ img:hover {
 
 @media screen and (orientation: landscape) {
   .header {
-    height: 24vh;
+    height: 20vh;
   }
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 880px) {
   .header {
-    height: 23vh;
+    height: 18vh;
   }
-}
+} */
 
 @media (max-width: 600px) {
   .header {
-    height: 22vh;
+    height: 20vh;
   }
   .logo {
     font-size: 3rem;
@@ -74,7 +74,7 @@ img:hover {
 
 @media (max-width: 420px) {
   .header {
-    height: 21vh;
+    height: 18vh;
   }
   .logo {
     font-size: 2.5rem;
@@ -214,4 +214,9 @@ img:hover {
 
 hr {
   color: rgb(169, 139, 100);
+}
+
+.bubbleBtn {
+  max-width: 80px;
+  aspect-ratio: 1/1;
 }

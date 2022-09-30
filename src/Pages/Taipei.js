@@ -21,7 +21,7 @@ const Taipei = () => {
         xs={9}
         lg={10}
         md={10}
-        sx={{ xs: "10rem", sm: "10rem", md: "11rem", lg: "12rem", xl: "12rem" }}
+        sx={{ marginTop: { xs: "6rem", sm: "8rem", md: "10rem", lg: "10rem" } }}
       >
         <Grid container spacing={5}>
           {taipeiExp.map((exp) => (
