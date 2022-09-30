@@ -23,7 +23,7 @@ img:hover {
   background-color: rgb(255, 241, 215);
   justify-content: space-between;
   align-items: center;
-  height: 15vh;
+  height: 25vh;
   position: fixed;
   cursor: pointer;
   z-index: 100;
@@ -52,19 +52,19 @@ img:hover {
 
 @media screen and (orientation: landscape) {
   .header {
-    height: 25vh;
+    height: 24vh;
   }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 900px) {
   .header {
-    height: 25vh;
+    height: 23vh;
   }
 }
 
 @media (max-width: 600px) {
   .header {
-    height: 20vh;
+    height: 22vh;
   }
   .logo {
     font-size: 3rem;
@@ -73,6 +73,9 @@ img:hover {
 }
 
 @media (max-width: 420px) {
+  .header {
+    height: 21vh;
+  }
   .logo {
     font-size: 2.5rem;
     text-align: center;
@@ -168,7 +171,7 @@ img:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: 100%;
 }
 
 .footer-navigation-areaList {
@@ -212,9 +215,3 @@ img:hover {
 hr {
   color: rgb(169, 139, 100);
 }
-
-/* 
-.th {
-  font-family: "Noto Serif TC", serif;
-  font-family: "Noto Sans TC", sans-serif;
-} */

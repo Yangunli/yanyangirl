@@ -21,7 +21,7 @@ const Tainan = () => {
         xs={9}
         lg={10}
         md={10}
-        sx={{ marginTop: { xs: "8rem", sm: "9rem", md: "10rem", lg: "10rem" } }}
+        sx={{ xs: "10rem", sm: "10rem", md: "11rem", lg: "12rem", xl: "12rem" }}
       >
         <Grid container spacing={5}>
           {tainanExp.map((exp, i) => (

@@ -11,18 +11,22 @@ import { Link } from "react-router-dom";
 
 const city = [
   {
+    id: 20,
     name: "臺北",
     src: "/yanyangirl/",
   },
   {
+    id: 30,
     name: "臺中",
     src: "/yanyangirl/taichung",
   },
   {
+    id: 40,
     name: "臺南",
     src: "/yanyangirl/tainan",
   },
   {
+    id: 50,
     name: "其他",
     src: "/yanyangirl/other",
   },
@@ -66,7 +70,7 @@ export default function Sidebar() {
       <List className="sidebar">
         {city.map((c) => (
           <Link
-            key={c.name}
+            key={c.id}
             to={c.src}
             style={{
               width: "100%",

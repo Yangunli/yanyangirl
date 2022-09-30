@@ -302,6 +302,18 @@ export const taipeiExp = [
 
 export const taichungExp = [
   {
+    ID: 207,
+    name: "好朋友展",
+    artist: "Natsumi Teraoka",
+    time: "2022/10/01-10/30",
+    openDay: "周四至周一",
+    venue: "綠光+marüte",
+    location: "台中市西區中興一巷2號",
+    TicketType: "免費",
+    src: "https://pic.pimg.tw/yangun410/1664541385-480069266-g_n.jpg",
+    link: "https://www.facebook.com/greenray.marute",
+  },
+  {
     ID: 206,
     name: "由星星組成的我們",
     artist: "夏仙",

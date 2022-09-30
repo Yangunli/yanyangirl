@@ -1,3 +1,20 @@
+export const KeExp = [
+  {
+    ID: 901,
+    name: "永晝海濱美術館",
+    artist:
+      "Kingjun、Aeemi、艸文子、P&K(詹欣珮&陳冠穎)、安吉克斯Angliex、不塑鬼放出來x 無用學堂 WuYong/Keelung Life Lab",
+    venue: "基隆正濱漁港彩色屋周邊",
+    openDay: "詳情請看連結",
+    TicketType: "售票",
+    location: "基隆正濱漁港彩色屋周邊",
+    time: "2022/09/24-11/27",
+
+    src: "https://pic.pimg.tw/yangun410/1664541733-3298802961-g_n.jpg",
+    link: "https://www.zhengbinart.com/?fbclid=IwAR1aSyCohAp5hQm9qUgCr2VE7yCJQ58I02h2f1FxA43j_NBLS_2mKSs6mh4",
+  },
+];
+
 export const THMExp = [
   // {
   //   ID: 0,
@@ -10,7 +27,7 @@ export const THMExp = [
   //   time: "",
 
   //   src: "https://pic.pimg.tw/yangun410/1663596092-474449301-g_n.jpg",
-  //   link: "https://www.facebook.com/photo/?fbid=157227876912235&set=pcb.157227380245618",
+  //   link: "",
   // },
   {
     ID: 3331,
