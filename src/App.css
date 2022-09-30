@@ -56,7 +56,16 @@ img:hover {
   }
 }
 
+@media (max-width: 880px) {
+  .header {
+    height: 25vh;
+  }
+}
+
 @media (max-width: 600px) {
+  .header {
+    height: 20vh;
+  }
   .logo {
     font-size: 3rem;
     text-align: center;
