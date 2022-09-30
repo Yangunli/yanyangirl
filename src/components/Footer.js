@@ -82,12 +82,6 @@ const Footer = () => {
             </a>
             icon by Icons8
           </small>
-          <small>
-            部分資料引用自
-            <a href="https://data.gov.tw/en/datasets/128616">
-              「臺北市文化快遞資訊」
-            </a>
-          </small>
         </div>
       </div>
     </div>

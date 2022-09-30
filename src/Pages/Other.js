@@ -2,10 +2,10 @@ import React from "react";
 import "../App.css";
 import { Grid } from "@mui/material";
 import SingleContent from "../components/SingleContent";
-import { datasets } from "../components/datasets";
+import { THMExp, EastExp, WSExp, CTExp } from "../components/datasets";
 
 const Other = () => {
-  const exhibition = datasets.filter((d) => d.Category === "展覽");
+  const exhibition = [...THMExp, ...CTExp, ...WSExp];
 
   return (
     <Grid
@@ -27,7 +27,7 @@ const Other = () => {
         sx={{ marginTop: { xs: "6rem", sm: "8rem", md: "10rem", lg: "10rem" } }}
       >
         <Grid container spacing={5}>
-          {exhibition.map((exp) => (
+          {exhibition?.map((exp) => (
             <SingleContent
               key={exp.ID}
               id={exp.ID}
