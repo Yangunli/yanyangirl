@@ -50,17 +50,17 @@ img:hover {
   color: rgb(122, 93, 7);
 }
 
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
   .header {
-    height: 20vh;
+    height: 25vh;
   }
-}
+} */
 
-/* @media (max-width: 880px) {
+@media (max-width: 880px) {
   .header {
     height: 18vh;
   }
-} */
+}
 
 @media (max-width: 600px) {
   .header {

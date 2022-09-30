@@ -2,10 +2,10 @@ import React from "react";
 import "../App.css";
 import { Grid } from "@mui/material";
 import SingleContent from "../components/SingleContent";
-import { THMExp, EastExp, WSExp, CTExp } from "../components/datasets";
+import { THMExp, KeExp, WSExp, CTExp } from "../components/datasets";
 
 const Other = () => {
-  const exhibition = [...THMExp, ...CTExp, ...WSExp];
+  const exhibition = [...KeExp, ...THMExp, ...CTExp, ...WSExp];
 
   return (
     <Grid
@@ -24,7 +24,15 @@ const Other = () => {
         xs={9}
         lg={10}
         md={10}
-        sx={{ marginTop: { xs: "8rem", sm: "9rem", md: "11rem", lg: "12rem" } }}
+        sx={{
+          marginTop: {
+            xs: "9rem",
+            sm: "11rem",
+            md: "11rem",
+            lg: "12rem",
+            xl: "12rem",
+          },
+        }}
       >
         <Grid container spacing={5}>
           {exhibition?.map((exp) => (
