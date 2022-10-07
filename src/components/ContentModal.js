@@ -7,9 +7,9 @@ const ContentModal = ({ exp }) => {
       <div className="ContentModal">
         <div className="ContentModal__about">
           <Typography variant="h5" color="text.secondary">
-            {exp.name || exp.Caption}
+            {exp?.name}
           </Typography>
-          <small> {exp.time || `${exp.StartDate} ~ ${exp.EndDate}`}</small>
+          <small> {exp?.time}</small>
         </div>
         <div className="ContentModal__about">
           <Typography variant="body2" color="text.secondary">
@@ -23,11 +23,11 @@ const ContentModal = ({ exp }) => {
         <Divider />
         <div className="ContentModal__about">
           <div className="Info">
-            <small>{exp.Venue || exp.venue} </small>
+            <small>{exp?.venue} </small>
           </div>
           {exp?.location && (
             <div className="Info">
-              <small>{exp?.location}</small>
+              <small>{exp.location}</small>
             </div>
           )}
           {exp?.TicketType && (

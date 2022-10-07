@@ -31,18 +31,18 @@ const SingleContent = ({ exp }) => {
         <CardMedia
           component="img"
           height="194"
-          image={exp.src || exp.ImageFile}
-          alt={exp.name || exp.Caption}
+          image={exp.src}
+          alt={exp.name}
           onClick={handleOpen}
         />
 
         <CardContent onClick={handleOpen}>
           <Typography variant="h6" color="text.secondary">
-            {exp.name || exp.Caption}
+            {exp?.name}
           </Typography>
 
           <Typography variant="subtitle2" color="text.secondary">
-            {exp.venue || exp.Venue}
+            {exp?.venue}
           </Typography>
         </CardContent>
         <Modal

@@ -75,7 +75,7 @@ export const taipeiExp = [
     location: "台北市師大路117巷6號1樓",
     time: "2022/09/24-10/16",
     src: "https://pic.pimg.tw/yangun410/1663596092-474449301-g_n.jpg",
-    link: "https://www.facebook.com/photo/?fbid=157227876912235&set=pcb.157227380245618",
+    link: "https://www.facebook.com/jxjbooks/",
   },
 
   {
@@ -514,7 +514,7 @@ export const tainanExp = [
     TicketType: "免費",
     artist: "黃至正",
     time: "2022/09/17-10/29",
-    openDay: "周三至周日",
+    openDay: "周三至周六",
     venue: "木木藝術",
     location: "台南市北區民德路90巷50號1樓​",
     src: "https://pic.pimg.tw/yangun410/1662468706-1288888256-g_b.jpg",
