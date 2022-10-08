@@ -32,7 +32,7 @@ export const THMExp = [
     ID: 3334,
     name: "我們都住在地球上",
     artist:
-      "Rumin Wu、Yunzhen Ho、五七、蔡豫寧、宇宙故事、張嘉路 - 資源回收日、小島研究站、楊美恩",
+      "Rumin Wu、Yunzhen Ho、五七、徐至宏、小黃間、張嘉路、小島研究站、蔡豫寧、宇宙故事、楊美恩",
     venue: "Xpark",
     openDay: "周一至周日",
     TicketType: "",
