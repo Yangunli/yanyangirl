@@ -17,18 +17,42 @@ export const KeExp = [
 
 export const THMExp = [
   // {
-  //   ID: 0,
-  //   name: "臨 界 點",
+  //   ID: 333,
+  //   name: "",
   //   artist: "",
   //   venue: "",
   //   openDay: "",
   //   TicketType: "",
   //   location: "",
   //   time: "",
-
-  //   src: "https://pic.pimg.tw/yangun410/1663596092-474449301-g_n.jpg",
+  //   src: "",
   //   link: "",
   // },
+  {
+    ID: 3334,
+    name: "我們都住在地球上",
+    artist:
+      "Rumin Wu、Yunzhen Ho、五七、蔡豫寧、宇宙故事、張嘉路 - 資源回收日、小島研究站、楊美恩",
+    venue: "Xpark",
+    openDay: "周一至周日",
+    TicketType: "",
+    location: "桃園市中壢區春德路105號",
+    time: "2022/10/5-12/31",
+    src: "https://www.xpark.com.tw/upload/news147_cont1_20221003104743.jpg",
+    link: "https://xpark-imagine-the-future-ocean-with-art.com.tw/",
+  },
+  {
+    ID: 3333,
+    name: "所有堅固終將煙消雲散",
+    artist: "黃立慧、王虹凱、廖昭豪",
+    venue: "桃園區公民會館",
+    openDay: "周二至周日",
+    TicketType: "免費",
+    location: "桃園市中華路8號",
+    time: "2022/09/07-11/13",
+    src: "https://pic.pimg.tw/yangun410/1665129054-2102518029-g_n.jpg",
+    link: "https://www.facebook.com/%E6%A1%83%E5%9C%92%E5%8D%80%E5%85%AC%E6%B0%91%E6%9C%83%E9%A4%A8-103228765608238/",
+  },
   {
     ID: 3331,
     name: "龜山疑雲？解密大作戰",
@@ -42,7 +66,7 @@ export const THMExp = [
     link: "https://www.facebook.com/photo/?fbid=157227876912235&set=pcb.157227380245618",
   },
   {
-    ID: 0,
+    ID: 3330,
     name: "美術館探密",
     artist: "吳芊頤、走路草農/藝團、三明治工、廖建忠、林書楷、林玉婷",
     venue: "桃園市兒童美術館",
