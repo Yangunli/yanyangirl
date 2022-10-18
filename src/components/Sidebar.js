@@ -71,7 +71,7 @@ export default function Sidebar() {
       <List className="sidebar">
         {city.map((c) => (
           <Link
-            key={id}
+            key={c.src}
             to={c.src}
             style={{
               width: "100%",

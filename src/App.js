@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Taipei from "./Pages/Taipei";
 import Taichung from "./Pages/Taichung";
 import Tainan from "./Pages/Tainan";
@@ -51,7 +51,7 @@ const theme = createTheme({
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ThemeProvider theme={theme}>
         <div className="app">
           <Header />
@@ -67,7 +67,7 @@ function App() {
           <Footer />
         </div>
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

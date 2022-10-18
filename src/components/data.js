@@ -108,8 +108,19 @@ export const taipeiExp = [
     src: "https://pic.pimg.tw/yangun410/1664466326-2118671262-g_n.jpg",
     link: "https://www.facebook.com/neptune.gallery.taipei",
   },
+
   {
-    ID: 831,
+    name: "星空派對",
+    artist: "蔡文明",
+    venue: "南西誠品",
+    openDay: "周一至周日",
+    TicketType: "免費",
+    location: "台北市中山區南京西路14號4樓",
+    time: "2022/10/12-10/27",
+    src: "https://pic.pimg.tw/yangun410/1666099504-980037140-g.jpg",
+    link: "https://www.facebook.com/5mins.com.tw",
+  },
+  {
     name: "進化/未進化",
     artist: "王裔婷",
     venue: "金車文藝中心 南京館",

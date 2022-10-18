@@ -35,7 +35,11 @@ const Tainan = () => {
       >
         <Grid container spacing={5}>
           {tainanExp.map((exp) => (
-            <SingleContent key={id} exp={exp} artiist={exp.artist} />
+            <SingleContent
+              key={`taichung${exp.name}-${id}`}
+              exp={exp}
+              artiist={exp.artist}
+            />
           ))}
         </Grid>
       </Grid>

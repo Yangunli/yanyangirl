@@ -35,7 +35,7 @@ const Taipei = () => {
       >
         <Grid container spacing={5}>
           {taipeiExp.map((exp) => (
-            <SingleContent key={id} exp={exp} />
+            <SingleContent key={`taichung${exp.name}-${id}`} exp={exp} />
           ))}
         </Grid>
       </Grid>

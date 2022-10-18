@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useId } from "react";
 import "../App.css";
 import { Card, Grid, Modal, Box, Fade, Backdrop } from "@mui/material";
 import CardMedia from "@mui/material/CardMedia";
@@ -21,12 +21,13 @@ const style = {
 };
 
 const SingleContent = ({ exp }) => {
+  const id = useId();
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
   return (
-    <Grid item xs={12} sm={6} md={4} lg={3}>
+    <Grid item key={id} xs={12} sm={6} md={4} lg={3}>
       <Card sx={{ maxWidth: 410 }}>
         <CardMedia
           component="img"

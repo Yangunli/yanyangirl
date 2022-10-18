@@ -37,7 +37,7 @@ const Other = () => {
         <Grid container spacing={5}>
           {exhibition?.map((exp) => (
             <SingleContent
-              key={id}
+              key={`other${exp.name}-${id}`}
               id={exp.ID}
               exp={exp}
               artiist={exp.artist}

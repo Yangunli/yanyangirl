@@ -36,8 +36,7 @@ const Taichung = () => {
         <Grid container spacing={5}>
           {taichungExp.map((exp) => (
             <SingleContent
-              key={id}
-              id={exp.ID}
+              key={`taichung${exp.name}-${id}`}
               exp={exp}
               artiist={exp.artist}
             />
