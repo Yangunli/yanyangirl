@@ -7,22 +7,22 @@ const Footer = () => {
     {
       EnName: "TAIPEI",
       name: "臺北",
-      src: "/yanyangirl/",
+      src: "/",
     },
     {
       EnName: "TAICHUNG",
       name: "臺中",
-      src: "/yanyangirl/taichung",
+      src: "/taichung",
     },
     {
       EnName: "TAINAN",
       name: "臺南",
-      src: "/yanyangirl/tainan",
+      src: "/tainan",
     },
     {
       EnName: "OTHER",
       name: "其他",
-      src: "/yanyangirl/other",
+      src: "/other",
     },
   ];
   function scrollWin() {

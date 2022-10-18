@@ -7,19 +7,19 @@ import { Link } from "react-router-dom";
 const city = [
   {
     name: "臺北",
-    src: "/yanyangirl/",
+    src: "/",
   },
   {
     name: "臺中",
-    src: "/yanyangirl/taichung",
+    src: "/taichung",
   },
   {
     name: "臺南",
-    src: "/yanyangirl/tainan",
+    src: "/tainan",
   },
   {
     name: "其他",
-    src: "/yanyangirl/other",
+    src: "/other",
   },
 ];
 
@@ -41,7 +41,7 @@ const Header = () => {
       </Grid>
       <Grid item xs={6} sm={6} lg={6}>
         <Link
-          to="/yanyangirl"
+          to="/"
           style={{
             textDecoration: "none",
           }}

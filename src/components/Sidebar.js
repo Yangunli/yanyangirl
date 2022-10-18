@@ -13,22 +13,22 @@ const city = [
   {
     id: 20,
     name: "臺北",
-    src: "/yanyangirl/",
+    src: "/",
   },
   {
     id: 30,
     name: "臺中",
-    src: "/yanyangirl/taichung",
+    src: "/taichung",
   },
   {
     id: 40,
     name: "臺南",
-    src: "/yanyangirl/tainan",
+    src: "/tainan",
   },
   {
     id: 50,
     name: "其他",
-    src: "/yanyangirl/other",
+    src: "/other",
   },
 ];
 
