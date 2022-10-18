@@ -1,9 +1,11 @@
+import { useId } from "react";
 import "../App.css";
 import { tainanExp } from "../components/data";
 import { Grid } from "@mui/material";
 import SingleContent from "../components/SingleContent";
 
 const Tainan = () => {
+  const id = useId();
   return (
     <Grid
       container
@@ -32,8 +34,8 @@ const Tainan = () => {
         }}
       >
         <Grid container spacing={5}>
-          {tainanExp.map((exp, i) => (
-            <SingleContent key={exp.src.ID} exp={exp} artiist={exp.artist} />
+          {tainanExp.map((exp) => (
+            <SingleContent key={id} exp={exp} artiist={exp.artist} />
           ))}
         </Grid>
       </Grid>

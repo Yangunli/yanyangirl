@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useId } from "react";
 import "../App.css";
 import { taichungExp } from "../components/data";
 import { Grid } from "@mui/material";
 import SingleContent from "../components/SingleContent";
 
 const Taichung = () => {
+  const id = useId();
   return (
     <Grid
       container
@@ -35,7 +36,7 @@ const Taichung = () => {
         <Grid container spacing={5}>
           {taichungExp.map((exp) => (
             <SingleContent
-              key={exp.src}
+              key={id}
               id={exp.ID}
               exp={exp}
               artiist={exp.artist}

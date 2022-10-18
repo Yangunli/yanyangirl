@@ -1,4 +1,4 @@
-import React from "react";
+import { useId } from "react";
 import "../App.css";
 import { Grid } from "@mui/material";
 import SingleContent from "../components/SingleContent";
@@ -6,7 +6,7 @@ import { THMExp, KeExp, WSExp, CTExp } from "../components/datasets";
 
 const Other = () => {
   const exhibition = [...KeExp, ...THMExp, ...CTExp, ...WSExp];
-
+  const id = useId();
   return (
     <Grid
       container
@@ -37,7 +37,7 @@ const Other = () => {
         <Grid container spacing={5}>
           {exhibition?.map((exp) => (
             <SingleContent
-              key={exp.ID}
+              key={id}
               id={exp.ID}
               exp={exp}
               artiist={exp.artist}

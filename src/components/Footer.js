@@ -68,20 +68,35 @@ const Footer = () => {
           </div>
           <Divider />
         </div>
-
         <div className="referance">
-          <small>
-            <a href="https://icons8.com/icon/103661/circled-menu">
-              Circled Menu
+          <div className="referance-link">
+            <small>
+              <a href="https://icons8.com/icon/103661/circled-menu">
+                Circled Menu
+              </a>
+              icon by Icons8
+            </small>
+            <small>
+              <a href="https://icons8.com/icon/HOsRsGt3t2Hk/bubble-tea">
+                Bubble Tea
+              </a>
+              icon by Icons8
+            </small>
+          </div>
+          <nav>
+            {" "}
+            <a
+              href="https://www.instagram.com/yanyangirl_tw/"
+              className="social-icons"
+            >
+              <img
+                src="https://cdn1.iconfinder.com/data/icons/social-media-outline-6/128/SocialMedia_Instagram-Outline-512.png"
+                alt="myIgLink"
+              />
             </a>
-            icon by Icons8
-          </small>
-          <small>
-            <a href="https://icons8.com/icon/HOsRsGt3t2Hk/bubble-tea">
-              Bubble Tea
-            </a>
-            icon by Icons8
-          </small>
+          </nav>
+
+          <Divider />
         </div>
       </div>
     </div>

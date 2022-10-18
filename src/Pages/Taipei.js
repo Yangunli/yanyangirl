@@ -1,9 +1,11 @@
+import { useId } from "react";
 import "../App.css";
 import { taipeiExp } from "../components/data";
 import { Grid } from "@mui/material";
 import SingleContent from "../components/SingleContent";
 
 const Taipei = () => {
+  const id = useId();
   return (
     <Grid
       container
@@ -33,7 +35,7 @@ const Taipei = () => {
       >
         <Grid container spacing={5}>
           {taipeiExp.map((exp) => (
-            <SingleContent key={exp.src} exp={exp} />
+            <SingleContent key={id} exp={exp} />
           ))}
         </Grid>
       </Grid>

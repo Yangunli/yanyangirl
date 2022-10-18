@@ -105,6 +105,17 @@ export const THMExp = [
 
 export const CTExp = [
   {
+    name: "有貓有狗",
+    artist: "BONBON法鬥哥",
+    venue: "山間良物",
+    openDay: " 周四至周日",
+    TicketType: "有低消",
+    location: "南投縣國姓鄉中西巷7-3號",
+    time: "2022/10/01-2023/4/10",
+    src: "https://pic.pimg.tw/yangun410/1666072798-2747299393-g_n.jpg",
+    link: "https://www.facebook.com/Bonbonartu",
+  },
+  {
     ID: 551,
     name: "無明",
     artist: "王妤璇、孫培懋、顏妤庭",
@@ -120,7 +131,6 @@ export const CTExp = [
 
 // export const EastExp = [
 //   {
-//     ID: 1,
 //     name: "123",
 //     artist: "",
 //     venue: "",

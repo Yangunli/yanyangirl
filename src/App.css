@@ -207,7 +207,7 @@ img:hover {
 .referance {
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 1rem 1rem;
   color: inherit;
 }
@@ -223,6 +223,18 @@ hr {
 .bubbleBtn {
   max-width: 80px;
   aspect-ratio: 1/1;
+}
+
+.social-icons img {
+  width: 20px;
+}
+
+nav {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 @media (max-height: 420px) and (orientation: landscape) {
