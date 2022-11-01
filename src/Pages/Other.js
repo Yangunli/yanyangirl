@@ -2,10 +2,16 @@ import { useId } from "react";
 import "../App.css";
 import { Grid } from "@mui/material";
 import SingleContent from "../components/SingleContent";
-import { THMExp, KeExp, WSExp, CTExp } from "../components/datasets";
+import {
+  THMExp,
+  KeXinExp,
+  WSExp,
+  CTExp,
+  EastExp,
+} from "../components/datasets";
 
 const Other = () => {
-  const exhibition = [...KeExp, ...THMExp, ...CTExp, ...WSExp];
+  const exhibition = [...EastExp, ...KeXinExp, ...THMExp, ...CTExp, ...WSExp];
   const id = useId();
   return (
     <Grid
