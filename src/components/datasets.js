@@ -1,4 +1,5 @@
 export const KeXinExp = [
+  // 基隆新北展訊
   {
     ID: 901,
     name: "永晝海濱美術館",
@@ -27,7 +28,8 @@ export const KeXinExp = [
 ];
 
 export const THMExp = [
-  // {,
+  // 桃竹苗展訊
+  // {
   //   name: "",
   //   artist: "",
   //   venue: "",
@@ -38,6 +40,7 @@ export const THMExp = [
   //   src: "",
   //   link: "",
   // },
+
   {
     name: "我們都住在地球上",
     artist:
@@ -51,7 +54,6 @@ export const THMExp = [
     link: "https://xpark-imagine-the-future-ocean-with-art.com.tw/",
   },
   {
-    ID: 3333,
     name: "所有堅固終將煙消雲散",
     artist: "黃立慧、王虹凱、廖昭豪",
     venue: "桃園區公民會館",
@@ -63,14 +65,13 @@ export const THMExp = [
     link: "https://www.facebook.com/%E6%A1%83%E5%9C%92%E5%8D%80%E5%85%AC%E6%B0%91%E6%9C%83%E9%A4%A8-103228765608238/",
   },
   {
-    ID: 3331,
     name: "龜山疑雲？解密大作戰",
     artist: "",
     venue: "A8藝文中心",
     openDay: "周二至周日",
     TicketType: "免費",
     location: "桃園市龜山區復興一路8號",
-    time: "2022/09/20-2023/11/20",
+    time: "2022/09/20-2022/11/20",
     src: "https://pic.pimg.tw/yangun410/1664515878-750310949-g_b.jpg",
     link: "https://www.facebook.com/photo/?fbid=157227876912235&set=pcb.157227380245618",
   },
@@ -98,6 +99,29 @@ export const THMExp = [
     src: "https://pic.pimg.tw/yangun410/1664518593-409586661-g_n.jpg",
     link: "https://www.facebook.com/events/604742091110314/604742111110312/",
   },
+  {
+    name: "明日的花",
+    artist:
+      "Ballboss、Croter、michun、Norman Normal、25度、不討喜、林孜育、阿尼斯特 Honest、夏仙、黃馨、羅寗與黃鼠狼",
+    venue: "新竹241藝術空間",
+    openDay: "周二至周日",
+    TicketType: "免費",
+    location: "新竹市東區中央路241號6樓",
+    time: "2022/11/04-2023-01/01",
+    src: "https://pic.pimg.tw/yangun410/1667552197-788562161-g_n.jpg",
+    link: "https://www.facebook.com/hsinchu241",
+  },
+  {
+    name: "𝑺𝒆𝒍𝒇 𝑩𝒚𝒔𝒕𝒂𝒏𝒅𝒆𝒓",
+    artist: "𝑭𝒍𝒐𝒔𝑲𝒊𝒕、𝒄𝒊𝒏𝒄𝒊𝒏 c𝒉𝒂𝒏𝒈",
+    venue: "日安水函",
+    openDay: "營業日請看官網",
+    TicketType: "免費",
+    location: "新竹市東區東大路一段21巷5號1樓",
+    time: "2022/11/05-2023/01/14",
+    src: "https://pic.pimg.tw/yangun410/1667821978-526174045-g_n.jpg",
+    link: "https://www.facebook.com/FlosKitArtSpace",
+  },
   // {
   //   ID: 3301,
   //   name: "臨 界 點",
@@ -113,6 +137,18 @@ export const THMExp = [
 ];
 
 export const CTExp = [
+  {
+    name: "森Mori｜藝術家聯展",
+    artist:
+      "平子雄一、伊藤彩、加藤泉、近藤亜樹、宮島達男、三宅信太郎、長井朋子、奈良美智、大野智史、小瀨真由子、大谷工作室、山本桂輔 ",
+    venue: "皇穹陵紀念花園",
+    openDay: "周二至周六",
+    TicketType: "免費",
+    location: "南投縣名間鄉三崙村內寮巷806號",
+    time: "2022/10/21-12/24",
+    src: "https://pic.pimg.tw/yangun410/1667821978-3928463521-g_n.jpg",
+    link: "https://yiriarts.com.tw/mori-group-exhibition/?v=3d9975706be3",
+  },
   {
     name: "有貓有狗",
     artist: "BONBON法鬥哥",

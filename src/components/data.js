@@ -91,44 +91,44 @@ export const taipeiExp = [
     link: "https://www.facebook.com/MissCyndiLin/photos/a.335834146502520/5548276011924948/",
   },
 
-  {
-    name: "獵島計畫",
-    artist:
-      "自愛、臍加厝手路金工、魏少君、仰角35度、每天、鄒曉葦、爿爿花、鐵鏽物件、今晚我是手、歐陽慈、tiger milk、phytooo、miki wei",
-    venue: "觀音山蓄水池",
-    openDay: "周二至周日",
-    TicketType: "售票",
-    location: "台北市中正區思源街1號",
-    time: "2022/10/20-11/06",
+  // {
+  //   name: "獵島計畫",
+  //   artist:
+  //     "自愛、臍加厝手路金工、魏少君、仰角35度、每天、鄒曉葦、爿爿花、鐵鏽物件、今晚我是手、歐陽慈、tiger milk、phytooo、miki wei",
+  //   venue: "觀音山蓄水池",
+  //   openDay: "周二至周日",
+  //   TicketType: "售票",
+  //   location: "台北市中正區思源街1號",
+  //   time: "2022/10/20-11/06",
 
-    src: "https://pic.pimg.tw/yangun410/1664467165-1660763815-g_b.jpg",
-    link: "http://www.hunter-island.com/",
-  },
-  {
-    name: "哭泣遊戲",
-    artist: "不討喜",
-    venue: "back_y伊日後樂園",
-    openDay: "周二至周六",
-    TicketType: "免費",
-    location: "台北市內湖區新明路66號",
-    time: "2022/09/22-11/05",
+  //   src: "https://pic.pimg.tw/yangun410/1664467165-1660763815-g_b.jpg",
+  //   link: "http://www.hunter-island.com/",
+  // },
+  // {
+  //   name: "哭泣遊戲",
+  //   artist: "不討喜",
+  //   venue: "back_y伊日後樂園",
+  //   openDay: "周二至周六",
+  //   TicketType: "免費",
+  //   location: "台北市內湖區新明路66號",
+  //   time: "2022/09/22-11/05",
 
-    src: "https://pic.pimg.tw/yangun410/1663557572-1975744569-g_n.jpg",
-    link: "https://www.facebook.com/photo/?fbid=157227876912235&set=pcb.157227380245618",
-  },
+  //   src: "https://pic.pimg.tw/yangun410/1663557572-1975744569-g_n.jpg",
+  //   link: "https://www.facebook.com/photo/?fbid=157227876912235&set=pcb.157227380245618",
+  // },
 
-  {
-    name: "你是我，是另一個你",
-    artist: "白昱軒",
-    venue: "CC Gallery",
-    openDay: "周二至周日",
-    TicketType: "免費",
-    location: "台北市中山區松江路259巷24號",
-    time: "2022/10/05-11/05",
+  // {
+  //   name: "你是我，是另一個你",
+  //   artist: "白昱軒",
+  //   venue: "CC Gallery",
+  //   openDay: "周二至周日",
+  //   TicketType: "免費",
+  //   location: "台北市中山區松江路259巷24號",
+  //   time: "2022/10/05-11/05",
 
-    src: "https://pic.pimg.tw/yangun410/1664466603-3161233272-g_b.jpg",
-    link: "https://www.facebook.com/ccgallerytw/photos/a.949697245048103/8428776800473406/",
-  },
+  //   src: "https://pic.pimg.tw/yangun410/1664466603-3161233272-g_b.jpg",
+  //   link: "https://www.facebook.com/ccgallerytw/photos/a.949697245048103/8428776800473406/",
+  // },
   // {
   //   name: "The Lost Garden",
   //   artist: "Willy VERGINER",
@@ -358,18 +358,6 @@ export const taipeiExp = [
   //   src: "https://pic.pimg.tw/yangun410/1660646149-205496889-g_n.jpg",
   //   link: "https://www.facebook.com/621463577876964/photos/a.1578984362124876/5383348521688422/",
   // },
-  // {
-  //   ID: 12,
-  //   name: "游離",
-  //   artist: "楊雅雯",
-  //   venue: "松山文創園區 藝思空間",
-  //   openDay: "周一至周日",
-  //   TicketType: "免費",
-  //   location: "台北市信義區光復南路133號",
-  //   time: "2022/08/13-08/29",
-  //   src: "https://pic.pimg.tw/yangun410/1660716418-277678234-g_n.jpg",
-  //   link: "https://www.songshanculturalpark.org/exhibition/activity/29dab13d-b043-46b9-b2ca-22f3a653a1bd",
-  // },
 
   // {
   //   ID: 13,
@@ -396,22 +384,20 @@ export const taipeiExp = [
   //   src: "https://pic.pimg.tw/yangun410/1660642877-3847116056-g_n.jpg",
   //   link: "https://www.cc-gallery.com/202285-827-300701996828404277003385319979-3934027138214072049123637.html",
   // },
-  // {
-  //   ID: 4,
-  //   name: "動漫未來2022",
-  //   TicketType: "售票",
-  //   openDay: "周二至周六",
-  //   time: "2022/08/06-08/27",
-  //   artist:
-  //     "王宗欣、李承道、柔光、桑拿大可、黃靖芝、劉正堃、劉文豪、松浦浩之、森博幸",
-  //   venue: "誠品畫廊",
-  //   location: "台北市信義區菸廠路88號B1",
-  //   src: "https://601115282-image.r.worldssl.net//wp-content/uploads/2022/07/1659178333-2374.jpg",
-  //   link: "https://eslitegallery.viewingrooms.com/viewing-room/26/ㄋ",
-  // },
 ];
 
 export const taichungExp = [
+  {
+    name: "鉄と緑",
+    artist: "巻田はるか",
+    time: "2022/11/05-11/27",
+    openDay: "周四至周一",
+    venue: "綠光+marüte",
+    location: "台中市西區中興一巷2號",
+    TicketType: "免費",
+    src: "https://pic.pimg.tw/yangun410/1667659507-2071110835-g_n.jpg",
+    link: "https://www.facebook.com/greenray.marute",
+  },
   {
     name: "山貓貓展",
     artist:
@@ -425,18 +411,18 @@ export const taichungExp = [
     link: "https://www.facebook.com/luguang.ga",
   },
 
-  {
-    ID: 208,
-    name: "留白",
-    artist: "身體山島",
-    time: "2022/10/21-11/05",
-    openDay: "周二至周六",
-    venue: "減貼選物",
-    location: "台中市西區向上路一段79巷66弄15號",
-    TicketType: "免費",
-    src: "https://pic.pimg.tw/yangun410/1665128688-1300990751-g_b.jpg",
-    link: "https://www.facebook.com/photo/?fbid=465712932245408&set=a.439355264881175",
-  },
+  // {
+  //   ID: 208,
+  //   name: "留白",
+  //   artist: "身體山島",
+  //   time: "2022/10/21-11/05",
+  //   openDay: "周二至周六",
+  //   venue: "減貼選物",
+  //   location: "台中市西區向上路一段79巷66弄15號",
+  //   TicketType: "免費",
+  //   src: "https://pic.pimg.tw/yangun410/1665128688-1300990751-g_b.jpg",
+  //   link: "https://www.facebook.com/photo/?fbid=465712932245408&set=a.439355264881175",
+  // },
 
   {
     ID: 206,
@@ -644,7 +630,28 @@ export const taichungExp = [
 
 export const tainanExp = [
   {
-    ID: 38,
+    name: "幽靈說",
+    artist: "王冠蓁",
+    venue: " 臺南市美術館",
+    openDay: "周二至周日",
+    TicketType: "售票",
+    location: "台南市中西區南門路37號",
+    time: "2022/11/25-12/25",
+    src: "https://pic.pimg.tw/yangun410/1667821978-1104954961-g_n.jpg",
+    link: "https://www.facebook.com/YIRI.ARTS/photos/a.447812051992724/5617552238351987/",
+  },
+  {
+    name: "屋園內",
+    artist: "李欣諭",
+    TicketType: "免費",
+    openDay: "周五至周三",
+    time: "2022/11/04-12/04",
+    venue: "青青土氣",
+    location: "臺南市中西區西寧街28號",
+    src: "https://pic.pimg.tw/yangun410/1667659507-3324912305-g.jpg",
+    link: "https://www.facebook.com/chinchinpottery",
+  },
+  {
     name: "小众生",
     TicketType: "免費",
     artist: "細江英公、李小鏡、簡永彬、馮君藍、蜷川實花、張雍、川島小鳥正",
@@ -759,18 +766,5 @@ export const tainanExp = [
   //   desc: "",
   //   src: "https://pic.pimg.tw/yangun410/1660713717-731913328-g_n.jpg",
   //   link: "https://www.san-gallery.com.tw/archives/3124?v=3d9975706be3",
-  // },
-  // {
-  //   ID: 302,
-  //   name: "懸著的___",
-  //   artist: "洪禎鞠 ",
-  //   TicketType: "免費",
-  //   openDay: "周五至周三",
-  //   time: "2022/08/05-09/04",
-  //   venue: "青青土氣",
-  //   location: "臺南市中西區西寧街28號",
-  //   desc: "",
-  //   src: "https://pic.pimg.tw/yangun410/1660647562-3103587606-g_b.jpg",
-  //   link: "https://www.facebook.com/chinchinpottery",
   // },
 ];
