@@ -21,7 +21,40 @@ export const taipeiExp = [
   //   src: "",
   //   link: "",
   // },
-
+  {
+    name: "2號森林",
+    artist: "蔡詠欣",
+    venue: "潮時藝術",
+    openDay: "周二至周六",
+    TicketType: "免費",
+    location: "台北市士林區磺溪街25號",
+    time: "2022/11/25-12/31 ",
+    src: "https://pic.pimg.tw/yangun410/1668256159-1506827109-g_n.jpg",
+    link: "  https://www.facebook.com/LINartprojects",
+  },
+  {
+    name: "【擬態未來】",
+    artist:
+      "黃敏俊、劉欣宜、陳修橋、林安常、朱媛汝(鬆鬆)、賴靜、趙延斌、林珮淳、薛佑廷、林佑森",
+    venue: "秋刀魚藝術中心",
+    openDay: "周二至周六",
+    TicketType: "免費",
+    location: "台北市中山區基湖路137號1樓",
+    time: " 2022/11/05-12/10",
+    src: "https://pic.pimg.tw/yangun410/1668256159-1072850734-g_n.jpg",
+    link: " https://www.facebook.com/fishart.center",
+  },
+  {
+    name: "未來紀念日",
+    artist: "丁原生",
+    venue: " 舊香居藝空間  ",
+    openDay: " 周二至周日",
+    TicketType: "免費",
+    location: "台北市師大路117巷6號1樓",
+    time: " 2022/11/19-12/11 ",
+    src: "https://pic.pimg.tw/yangun410/1668256159-2875029482-g_n.jpg",
+    link: "  https://www.facebook.com/jxjgallery",
+  },
   {
     name: "歎息夜 Sighing Night",
     artist: "草本菟刻、 Zihling",
@@ -387,6 +420,17 @@ export const taipeiExp = [
 ];
 
 export const taichungExp = [
+  {
+    name: "三人展",
+    artist: "王董碩，廖震平，林怡芬",
+    venue: "科元藝術",
+    openDay: "周二至周六",
+    TicketType: "免費",
+    location: "台中市清水區中山路126-8號3-4F",
+    time: "2022 /11/05-11/26",
+    src: "https://pic.pimg.tw/yangun410/1668256159-288162911-g_b.jpg",
+    link: "https://www.facebook.com/GalleryKeYuan",
+  },
   {
     name: "鉄と緑",
     artist: "巻田はるか",

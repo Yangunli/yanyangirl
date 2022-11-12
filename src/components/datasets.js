@@ -54,17 +54,6 @@ export const THMExp = [
     link: "https://xpark-imagine-the-future-ocean-with-art.com.tw/",
   },
   {
-    name: "所有堅固終將煙消雲散",
-    artist: "黃立慧、王虹凱、廖昭豪",
-    venue: "桃園區公民會館",
-    openDay: "周二至周日",
-    TicketType: "免費",
-    location: "桃園市中華路8號",
-    time: "2022/09/07-11/13",
-    src: "https://pic.pimg.tw/yangun410/1665129054-2102518029-g_n.jpg",
-    link: "https://www.facebook.com/%E6%A1%83%E5%9C%92%E5%8D%80%E5%85%AC%E6%B0%91%E6%9C%83%E9%A4%A8-103228765608238/",
-  },
-  {
     name: "龜山疑雲？解密大作戰",
     artist: "",
     venue: "A8藝文中心",
