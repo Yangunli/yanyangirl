@@ -52,7 +52,7 @@ export const taipeiExp = [
     TicketType: "免費",
     location: "台北市師大路117巷6號1樓",
     time: " 2022/11/19-12/11 ",
-    src: "https://pic.pimg.tw/yangun410/1668256159-2875029482-g_n.jpg",
+    src: "https://pic.pimg.tw/yangun410/1668263954-2338581349-g_n.jpg",
     link: "  https://www.facebook.com/jxjgallery",
   },
   {
