@@ -74,18 +74,18 @@ export const THMExp = [
   //   src: "https://pic.pimg.tw/yangun410/1664518890-3692404307-g_n.jpg",
   //   link: "https://tmofa.tycg.gov.tw/ch/exhibitions/current-exhibitions",
   // },
-  {
-    ID: 3332,
-    name: "洋樓‧老屋書畫展",
-    artist: "",
-    venue: "曹家洋樓文化基地",
-    openDay: "周日",
-    TicketType: "免費",
-    location: "桃園龜山區萬壽路二段1039號",
-    time: "2022/09/04-12/18",
-    src: "https://pic.pimg.tw/yangun410/1664518593-409586661-g_n.jpg",
-    link: "https://www.facebook.com/events/604742091110314/604742111110312/",
-  },
+  // {
+  //   ID: 3332,
+  //   name: "洋樓‧老屋書畫展",
+  //   artist: "",
+  //   venue: "曹家洋樓文化基地",
+  //   openDay: "周日",
+  //   TicketType: "免費",
+  //   location: "桃園龜山區萬壽路二段1039號",
+  //   time: "2022/09/04-12/18",
+  //   src: "https://pic.pimg.tw/yangun410/1664518593-409586661-g_n.jpg",
+  //   link: "https://www.facebook.com/events/604742091110314/604742111110312/",
+  // },
   {
     name: "明日的花",
     artist:
@@ -124,18 +124,18 @@ export const THMExp = [
 ];
 
 export const CTExp = [
-  {
-    name: "森Mori｜藝術家聯展",
-    artist:
-      "平子雄一、伊藤彩、加藤泉、近藤亜樹、宮島達男、三宅信太郎、長井朋子、奈良美智、大野智史、小瀨真由子、大谷工作室、山本桂輔 ",
-    venue: "皇穹陵紀念花園",
-    openDay: "周二至周六",
-    TicketType: "免費",
-    location: "南投縣名間鄉三崙村內寮巷806號",
-    time: "2022/10/21-12/24",
-    src: "https://pic.pimg.tw/yangun410/1667821978-3928463521-g_n.jpg",
-    link: "https://yiriarts.com.tw/mori-group-exhibition/?v=3d9975706be3",
-  },
+  // {
+  //   name: "森Mori｜藝術家聯展",
+  //   artist:
+  //     "平子雄一、伊藤彩、加藤泉、近藤亜樹、宮島達男、三宅信太郎、長井朋子、奈良美智、大野智史、小瀨真由子、大谷工作室、山本桂輔 ",
+  //   venue: "皇穹陵紀念花園",
+  //   openDay: "周二至周六",
+  //   TicketType: "免費",
+  //   location: "南投縣名間鄉三崙村內寮巷806號",
+  //   time: "2022/10/21-12/24",
+  //   src: "https://pic.pimg.tw/yangun410/1667821978-3928463521-g_n.jpg",
+  //   link: "https://yiriarts.com.tw/mori-group-exhibition/?v=3d9975706be3",
+  // },
   {
     name: "有貓有狗",
     artist: "BONBON法鬥哥",
@@ -187,17 +187,6 @@ export const WSExp = [
     link: "https://www.kmfa.gov.tw/ExhibitionDetailC001100.aspx?Cond=b07cf7e9-2396-46c8-8cc8-ae988ae65062",
   },
 
-  {
-    name: "Ordinary People 23",
-    artist: "李晉豪",
-    venue: "駁二C8-1",
-    openDay: "周一至周日",
-    TicketType: "免費",
-    location: "高雄市鹽埕區大勇路1號",
-    time: "2022/12/01-12/20",
-    src: "https://pic.pimg.tw/yangun410/1664519994-2094933915-g_n.jpg",
-    link: "https://pier2.org/exhibition/info/1042/",
-  },
   // {
   //   name: "HOPE—希望的形狀",
   //   artist:

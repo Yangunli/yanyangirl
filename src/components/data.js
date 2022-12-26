@@ -98,7 +98,7 @@ export const taipeiExp = [
     openDay: "周二至周日",
     TicketType: "免費",
     location: "台北市大安區敦化南路二段63巷21弄27號",
-    time: " 2022/11/20-12/18",
+    time: " 2022/11/20-12/31",
     src: "https://pic.pimg.tw/yangun410/1669109030-3212364011-g_n.jpg",
     link: "https://www.facebook.com/simpleobjectofficial",
   },
