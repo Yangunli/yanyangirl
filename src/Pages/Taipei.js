@@ -6,6 +6,9 @@ import SingleContent from "../components/SingleContent";
 
 const Taipei = () => {
   const id = useId();
+  const exhibition = taipeiExp.filter(
+    (exhibit) => new Date(exhibit.time.split("-")[1]) > new Date()
+  );
   return (
     <Grid
       container
@@ -34,7 +37,7 @@ const Taipei = () => {
         }}
       >
         <Grid container spacing={5}>
-          {taipeiExp.map((exp) => (
+          {exhibition.map((exp) => (
             <SingleContent key={`taichung${exp.name}-${id}`} exp={exp} />
           ))}
         </Grid>

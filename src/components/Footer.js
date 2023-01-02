@@ -2,29 +2,8 @@ import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
 import { Divider } from "@mui/material";
+import { city } from "./city";
 const Footer = () => {
-  const city = [
-    {
-      EnName: "TAIPEI",
-      name: "臺北",
-      src: "/",
-    },
-    {
-      EnName: "TAICHUNG",
-      name: "臺中",
-      src: "/taichung",
-    },
-    {
-      EnName: "TAINAN",
-      name: "臺南",
-      src: "/tainan",
-    },
-    {
-      EnName: "OTHER",
-      name: "其他",
-      src: "/other",
-    },
-  ];
   function scrollWin() {
     window.scroll(0, 0);
   }

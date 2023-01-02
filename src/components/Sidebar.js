@@ -8,29 +8,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import { Link } from "react-router-dom";
-
-const city = [
-  {
-    id: 20,
-    name: "臺北",
-    src: "/",
-  },
-  {
-    id: 30,
-    name: "臺中",
-    src: "/taichung",
-  },
-  {
-    id: 40,
-    name: "臺南",
-    src: "/tainan",
-  },
-  {
-    id: 50,
-    name: "其他",
-    src: "/other",
-  },
-];
+import { city } from "./city";
 
 const iOS =
   typeof navigator !== "undefined" &&

@@ -11,7 +11,16 @@ import {
 } from "../components/datasets";
 
 const Other = () => {
-  const exhibition = [...EastExp, ...KeXinExp, ...THMExp, ...CTExp, ...WSExp];
+  const totalExhibitions = [
+    ...EastExp,
+    ...KeXinExp,
+    ...THMExp,
+    ...CTExp,
+    ...WSExp,
+  ];
+  const exhibition = totalExhibitions.filter(
+    (exhibit) => new Date(exhibit.time.split("-")[1]) > new Date()
+  );
   const id = useId();
   return (
     <Grid

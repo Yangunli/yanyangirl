@@ -7,6 +7,7 @@ import Taipei from "./Pages/Taipei";
 import Taichung from "./Pages/Taichung";
 import Tainan from "./Pages/Tainan";
 import Other from "./Pages/Other";
+
 // const LazyOther = lazy(() => import("./Pages/Other"));
 // const LazyTainan = lazy(() => import("./Pages/Tainan"));
 

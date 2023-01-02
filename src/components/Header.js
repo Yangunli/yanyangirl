@@ -3,25 +3,7 @@ import "../App.css";
 import Sidebar from "./Sidebar";
 import { Grid } from "@mui/material";
 import { Link } from "react-router-dom";
-
-const city = [
-  {
-    name: "臺北",
-    src: "/",
-  },
-  {
-    name: "臺中",
-    src: "/taichung",
-  },
-  {
-    name: "臺南",
-    src: "/tainan",
-  },
-  {
-    name: "其他",
-    src: "/other",
-  },
-];
+import { city } from "./city";
 
 const Header = () => {
   return (

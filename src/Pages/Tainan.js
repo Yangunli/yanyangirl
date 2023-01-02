@@ -5,6 +5,9 @@ import { Grid } from "@mui/material";
 import SingleContent from "../components/SingleContent";
 
 const Tainan = () => {
+  const exhibition = tainanExp.filter(
+    (exhibit) => new Date(exhibit.time.split("-")[1]) > new Date()
+  );
   const id = useId();
   return (
     <Grid
@@ -34,7 +37,7 @@ const Tainan = () => {
         }}
       >
         <Grid container spacing={5}>
-          {tainanExp.map((exp) => (
+          {exhibition.map((exp) => (
             <SingleContent
               key={`taichung${exp.name}-${id}`}
               exp={exp}
