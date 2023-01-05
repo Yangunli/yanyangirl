@@ -177,6 +177,28 @@ export const EastExp = [
 
 export const WSExp = [
   {
+    name: "異托邦樂園",
+    artist: "曾義晴",
+    venue: "駁二藝術特區C8-1倉庫",
+    openDay: "周一至周日",
+    TicketType: "免費",
+    location: "高雄市鹽埕區大義街2-2號",
+    time: "2022/12/28-2023/01/16",
+    src: "https://pic.pimg.tw/yangun410/1672931086-740035183-g_n.jpg?v=1672931091",
+    link: "https://pier2.org/exhibition/info/1067/",
+  },
+  {
+    name: "記憶標本",
+    artist: "Tiger Milk",
+    venue: "駁二大義倉庫 C9-14 伊日好物",
+    openDay: "周一至周日",
+    TicketType: "免費",
+    location: "高雄市鹽埕區大義街2-2號",
+    time: "2022/11/19-2023/01/27",
+    src: "https://pic.pimg.tw/yangun410/1672931478-3465685400-g_n.jpg",
+    link: "https://www.facebook.com/yiri.goods.p2/",
+  },
+  {
     name: "minä perhonen",
     venue: "高雄市立美術館",
     openDay: "周二至周日",
@@ -187,18 +209,6 @@ export const WSExp = [
     link: "https://www.kmfa.gov.tw/ExhibitionDetailC001100.aspx?Cond=b07cf7e9-2396-46c8-8cc8-ae988ae65062",
   },
 
-  // {
-  //   name: "HOPE—希望的形狀",
-  //   artist:
-  //     "包大山、董十行、李霽、一步工作室、何婉君、極製設計所、徐光慧、張簡士揚、川貝母、陳普、陳青琳、頌君、楊士慶、霧室、王宗欣、Raimochi、Wuba Yang、田中せり、高田唯、清水彩香、脇田あすか、小玉文、矢後直規、村上雅士、三上悠里、安川宏輝、KAAKA",
-  //   venue: "駁二C5倉庫",
-  //   openDay: "周一至周日",
-  //   TicketType: "售票",
-  //   location: "高雄市鹽埕區大勇路1號",
-  //   time: "2022/05/06-10/30",
-  //   src: "https://pic.pimg.tw/yangun410/1664519994-2873476831-g_b.jpg",
-  //   link: "https://pier2.org/exhibition/info/1008/",
-  // },
   // {
   //   ID: 8021,
   //   name: "小花計畫2022",
