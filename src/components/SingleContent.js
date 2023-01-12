@@ -25,7 +25,7 @@ const SingleContent = ({ exp }) => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
+  const [YY, MM, DD] = exp.time.split("-")[1].split("/");
   return (
     <Grid item key={id} xs={12} sm={6} md={4} lg={3}>
       <Card sx={{ maxWidth: 410 }}>
@@ -37,11 +37,11 @@ const SingleContent = ({ exp }) => {
           onClick={handleOpen}
         />
 
-        <CardContent onClick={handleOpen}>
+        <CardContent className="exp-container" onClick={handleOpen}>
+          <span className="exp-time">{`${MM}/${DD}`}</span>
           <Typography variant="h6" color="text.secondary">
             {exp?.name}
           </Typography>
-
           <Typography variant="subtitle2" color="text.secondary">
             {exp?.venue}
           </Typography>
