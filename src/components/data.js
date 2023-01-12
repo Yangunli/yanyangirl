@@ -926,7 +926,7 @@ export const taichungExp = [
 export const tainanExp = [
   {
     name: "站在光裡的是路過的你嗎",
-    artist: "吳芊頤、走路草農／藝團、程仁珮、蔡宗祐",
+    artist: "陳廷晉",
     venue: "暮拉多元藝術空間 ",
     openDay: "周一至周日",
     TicketType: "免費",
