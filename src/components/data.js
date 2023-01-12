@@ -531,7 +531,7 @@ export const taipeiExp = [
 
 export const taichungExp = [
   {
-    name: "回歸線",
+    name: "⟣Illusory⟢",
     artist: "sophiasartworks",
     time: "2022/12/27-2023/02/05",
     openDay: "除01/11及01/21-01/26以外的周二至周日,",
