@@ -531,6 +531,40 @@ export const taipeiExp = [
 
 export const taichungExp = [
   {
+    name: "回歸線",
+    artist: "sophiasartworks",
+    time: "2022/12/27-2023/02/05",
+    openDay: "除01/11及01/21-01/26以外的周二至周日,",
+    venue: "茶筆巷文具生活空間 ",
+    location: "台中市西區昇平街89號",
+    TicketType: "免費",
+    src: "https://pic.pimg.tw/yangun410/1673022993-3293479172-g_b.jpg",
+    link: "https://www.facebook.com/tpl.stationery",
+  },
+  {
+    name: "SUPER FREEDOM LIFE",
+    artist: "maitoparta ​",
+    time: "2023/01/07-2023/01/29",
+    openDay: "周四至周一(不包含01/20及01/21)",
+    venue: "綠光+marüte",
+    location: "台中市西區中興一巷2號",
+    TicketType: "免費",
+    src: "https://pic.pimg.tw/yangun410/1673022993-2958428279-g_b.jpg?v=1673023019",
+    link: "https://www.facebook.com/greenray.marute",
+  },
+
+  {
+    name: "回歸線",
+    artist: "沐冉、梁海莎",
+    time: "2023/01/07-2023/03/12",
+    openDay: "周二至周日",
+    venue: "清風Mr.Wing gallery ",
+    location: "台中市西屯區市政北二路324號​",
+    TicketType: "免費",
+    src: "https://pic.pimg.tw/yangun410/1673022993-1489543016-g_b.jpg?v=1673023010",
+    link: "https://www.mrwingart.com/?fbclid=IwAR0kLSXrulEqrUeRxJ8B6--lizK30QOgFaYBIY7yDBkcbj3FZKnGFp6-OTU",
+  },
+  {
     name: "無名的繆思",
     artist: "江賢二、林友寒、周裕穎",
     openDay: "周二至周日",
@@ -890,6 +924,17 @@ export const taichungExp = [
 ];
 
 export const tainanExp = [
+  {
+    name: "站在光裡的是路過的你嗎",
+    artist: "吳芊頤、走路草農／藝團、程仁珮、蔡宗祐",
+    venue: "暮拉多元藝術空間 ",
+    openDay: "周一至周日",
+    TicketType: "免費",
+    location: "台南市中西區國華街三段15號",
+    time: "2023/01/12-2023/02/28",
+    src: "https://pic.pimg.tw/yangun410/1673503391-4135638169-g_b.jpg?v=1673503413",
+    link: "https://themoolahart.wixsite.com/my-site",
+  },
   {
     name: "家鄉WAY",
     artist: "吳芊頤、走路草農／藝團、程仁珮、蔡宗祐",
