@@ -8,13 +8,13 @@ import ContentModal from "./ContentModal";
 
 const style = {
   position: "absolute",
-  top: "50%",
+  top: "55%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: "90%",
+  width: "min(90%,800px)",
   bgcolor: "rgb(230, 201, 147)",
   color: "white",
-  border: "1px solid #000",
+  border: "3px solid #604A06",
   borderRadius: "10px",
   boxShadow: 20,
   p: 4,
@@ -25,7 +25,6 @@ const SingleContent = ({ exp }) => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  const [YY, MM, DD] = exp.time.split("-")[1].split("/");
   return (
     <Grid item key={id} xs={12} sm={6} md={4} lg={3}>
       <Card sx={{ maxWidth: 410 }}>
@@ -38,7 +37,6 @@ const SingleContent = ({ exp }) => {
         />
 
         <CardContent className="exp-container" onClick={handleOpen}>
-          <span className="exp-time">{`${MM}/${DD}`}</span>
           <Typography variant="h6" color="text.secondary">
             {exp?.name}
           </Typography>

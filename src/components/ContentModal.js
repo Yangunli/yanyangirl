@@ -45,10 +45,7 @@ const ContentModal = ({ exp }) => {
           <div className="Info">
             <small>相關連結</small>
             <small>
-              <a
-                href={exp.link || exp.WebsiteLink}
-                alt={exp.name || exp.Caption}
-              >
+              <a href={exp.link} alt={exp.name}>
                 活動網址
               </a>
             </small>

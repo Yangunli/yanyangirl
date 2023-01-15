@@ -922,17 +922,17 @@ export const tainanExp = [
     src: "https://pic.pimg.tw/yangun410/1672930381-2751693358-g_n.jpg",
     link: "https://www.facebook.com/soka.tainan",
   },
-  {
-    name: " 𝙋𝙖𝙧𝙩𝙮 𝙖𝙡𝙤𝙣𝙚一個人的趴踢",
-    artist: " 𝙬𝙖𝙡𝙠𝙩𝙝𝙚𝙘𝙖𝙩𝙩 ",
-    venue: "Error22（鼴鼠",
-    openDay: "周一至周日",
-    TicketType: "店內低消",
-    location: "台南市中西區開山街",
-    time: "2022/12/04-2022/12/28",
-    src: " https://pic.pimg.tw/yangun410/1670499751-1545133343-g_b.jpg ",
-    link: " https://www.instagram.com/walkthecatt/ ",
-  },
+  // {
+  //   name: " 𝙋𝙖𝙧𝙩𝙮 𝙖𝙡𝙤𝙣𝙚一個人的趴踢",
+  //   artist: " 𝙬𝙖𝙡𝙠𝙩𝙝𝙚𝙘𝙖𝙩𝙩 ",
+  //   venue: "Error22（鼴鼠",
+  //   openDay: "周一至周日",
+  //   TicketType: "店內低消",
+  //   location: "台南市中西區開山街",
+  //   time: "2022/12/04-2022/12/28",
+  //   src: " https://pic.pimg.tw/yangun410/1670499751-1545133343-g_b.jpg ",
+  //   link: " https://www.instagram.com/walkthecatt/ ",
+  // },
   {
     name: "轉境︰藝術森林的摺曲之徑",
     artist:

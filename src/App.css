@@ -143,13 +143,15 @@ img:hover {
 }
 
 .Info {
-  width: 72vw;
+  width: 100%;
   font-family: "Noto Sans TC", sans-serif;
   font-weight: 300;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(91, 84, 75);
   padding: 0.5rem 0rem;
+  cursor: default;
+  position: relative;
 }
 
 .Info small a {
@@ -157,8 +159,19 @@ img:hover {
   cursor: pointer;
 }
 
-.Info:hover {
+.Info:before {
   background-color: rgba(192, 170, 128, 0.8);
+  transition: all 0.6s ease-in-out 0.2s;
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: 0px;
+  height: 100%;
+}
+
+.Info:hover::before {
+  width: 100%;
 }
 
 /* footer */
@@ -249,40 +262,4 @@ nav {
   .bubbleBtn {
     width: 60px;
   }
-}
-
-.exp-container {
-  position: relative;
-}
-
-.exp-time {
-  position: absolute;
-  font-size: small;
-  color: rgb(100, 100, 100);
-  backdrop-filter: blur(10px);
-  opacity: 0.8;
-  text-align: center;
-  inset: calc(80%) 0 auto calc(80%);
-  /* inset: -18px -2px auto calc(80%);
-  background-color: #fff; */
-}
-
-.exp-time::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 500;
-  content: "\f017";
-  font-size: x-small;
-}
-
-.exp-time:after {
-  position: absolute;
-  z-index: -2;
-  display: block;
-  inset: -80px 0px 0px 0px;
-  width: 80px;
-  height: 80px;
-  border-radius: 100% 0 0 0;
-  background-color: rgb(234, 193, 143);
-  opacity: 0.8;
-  content: "";
 }
