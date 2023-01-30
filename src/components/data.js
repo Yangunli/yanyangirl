@@ -11,6 +11,17 @@ export const taipeiExp = [
   //   link: "",
   // },
   {
+    name: "渡邊文矢個展",
+    artist: "渡邊文矢",
+    venue: "小器藝廊",
+    openDay: "周二至周日",
+    TicketType: "免費",
+    location: "台北市大同區赤峰街17巷4號",
+    time: "2023/02/04-2023/02/19 ",
+    src: "https://pic.pimg.tw/yangun410/1675060114-3969748000-g_n.jpg",
+    link: "https://www.facebook.com/xiaoqiplusg",
+  },
+  {
     name: "生日快樂繪本原畫展",
     artist: "林彥良",
     venue: "Chambre 81",
@@ -485,6 +496,17 @@ export const taipeiExp = [
 
 export const taichungExp = [
   {
+    name: "退休的貓侍衛",
+    artist: "劉嘉圭",
+    time: "2023/02/04-2023/03/05",
+    openDay: "周三至周日",
+    venue: "小路映画",
+    location: "台中市西區五權五街94巷36號",
+    TicketType: "售票",
+    src: "https://pic.pimg.tw/yangun410/1675060114-3822950184-g_n.jpg",
+    link: "https://www.facebook.com/events/692508749226371",
+  },
+  {
     name: "⟣Illusory⟢",
     artist: "sophiasartworks",
     time: "2022/12/27-2023/02/05",
@@ -878,6 +900,18 @@ export const taichungExp = [
 ];
 
 export const tainanExp = [
+  {
+    name: "愛是塑膠",
+    TicketType: "免費",
+    time: "2023/02/04-2023/02/26",
+    openDay: "周三至周日",
+    artist: "劉倩帆",
+    venue: "陸角銀Sixpence Gallery",
+    location: "台南市中西區大德街83號2F",
+    src: "https://pic.pimg.tw/yangun410/1675060935-3167826214-g_b.jpg",
+    link: "https://www.facebook.com/Sixpence.Gallery",
+  },
+
   {
     name: "站在光裡的是路過的你嗎",
     artist: "陳廷晉",
