@@ -1,6 +1,16 @@
 export const KeXinExp = [
   // 基隆新北展訊
-
+  {
+    name: "光之象徵",
+    artist: "芝田典子",
+    venue: "板橋435藝文特區",
+    openDay: "周二至周日",
+    TicketType: "免費",
+    location: "新北市板橋區中正路435號",
+    time: "2023/02/02-2023/02/19 ",
+    src: "https://pic.pimg.tw/yangun410/1675582792-1764803606-g_n.jpg",
+    link: "https://www.facebook.com/artzone435",
+  },
   {
     name: "萬物有靈",
     artist: "黃建叡",
