@@ -883,7 +883,7 @@ export const tainanExp = [
     name: "Soil Dogs",
     artist: "Stef Veldhuis",
     venue: "節點藝術空間",
-    openDay: "周一至周六",
+    openDay: "周四至周一",
     TicketType: "免費",
     location: "台南市中西區永福路二段84號",
     time: "2023/03/12-2023/04/02",
