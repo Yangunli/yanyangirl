@@ -49,6 +49,17 @@ export const THMExp = [
   //   link: "",
   // },
   {
+    name: "#媽媽手癢布玩",
+    artist: "iamct 陳之婷",
+    venue: "船的工作室",
+    openDay: "4/30、5/4、5/5、5/11、5/14、5/19、5/21",
+    TicketType: "免費",
+    location: "桃園市大溪區慈光一街150巷2號太武新村29號眷舍",
+    time: "2023/04/09-2023/05/21",
+    src: "https://pic.pimg.tw/yangun410/1682745205-680339624-g_b.jpg?v=1682745217",
+    link: "https://www.instagram.com/p/CqukZd5rP_K/",
+  },
+  {
     name: "春和",
     artist: "吳芊頤、洪民裕、蘇琬婷、饒文貞",
     venue: "一諾藝術",
